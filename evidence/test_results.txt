@@ -7,6 +7,6 @@ test_same_origin_destination (test_router.RouterTests.test_same_origin_destinati
 test_unknown_node_rejected (test_router.RouterTests.test_unknown_node_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 6 tests in 0.001s
+Ran 6 tests in 0.000s
 
 OK

@@ -17,8 +17,8 @@
     "max_slope": 0.07,
     "segments": 3,
     "runs": 1000,
-    "median_ms": 0.0172,
-    "p95_ms": 0.019
+    "median_ms": 0.0176,
+    "p95_ms": 0.0201
   },
   {
     "found": true,
@@ -38,8 +38,8 @@
     "max_slope": 0.05,
     "segments": 3,
     "runs": 1000,
-    "median_ms": 0.0198,
-    "p95_ms": 0.0227
+    "median_ms": 0.0202,
+    "p95_ms": 0.0241
   },
   {
     "found": true,
@@ -59,7 +59,7 @@
     "max_slope": 0.05,
     "segments": 3,
     "runs": 1000,
-    "median_ms": 0.0207,
-    "p95_ms": 0.0233
+    "median_ms": 0.0216,
+    "p95_ms": 0.0238
   }
 ]
