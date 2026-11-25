@@ -1,0 +1,12 @@
+flowchart LR
+ U[Usuario] --> UI[Interfaz CLI / API]
+ UI --> C[Controlador de ruta]
+ C --> S[Selector de estrategia]
+ S --> F[Estrategia rápida]
+ S --> A[Estrategia accesible]
+ S --> B[Estrategia equilibrada]
+ C --> R[Motor Dijkstra]
+ R --> G[(Grafo del campus)]
+ G --> D[Repositorio de nodos y tramos]
+ C --> O[Respuesta de ruta]
+ O --> UI

@@ -1,0 +1,14 @@
+classDiagram
+ class Graph {+adj: Map~String, Edge~ +add(e) +nodes()}
+ class Edge {+a: String +b: String +minutes: float +slope: float +stairs: bool +surface: String}
+ class Router {+graph: Graph +route(source,target,strategy,closed)}
+ class RouteStrategy {<<interface>> +cost(edge)}
+ class FastestStrategy {+cost(edge)}
+ class AccessibleStrategy {+cost(edge)}
+ class BalancedStrategy {+cost(edge)}
+ Graph "1" o-- "*" Edge
+ Router --> Graph
+ Router --> RouteStrategy
+ RouteStrategy <|.. FastestStrategy
+ RouteStrategy <|.. AccessibleStrategy
+ RouteStrategy <|.. BalancedStrategy

@@ -1,0 +1,12 @@
+
+test_accessible_route_avoids_stairs (test_router.RouterTests.test_accessible_route_avoids_stairs) ... ok
+test_closure_changes_or_preserves_valid_route (test_router.RouterTests.test_closure_changes_or_preserves_valid_route) ... ok
+test_fastest_route_found_and_positive (test_router.RouterTests.test_fastest_route_found_and_positive) ... ok
+test_no_path (test_router.RouterTests.test_no_path) ... ok
+test_same_origin_destination (test_router.RouterTests.test_same_origin_destination) ... ok
+test_unknown_node_rejected (test_router.RouterTests.test_unknown_node_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

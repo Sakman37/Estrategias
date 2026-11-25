@@ -1,0 +1,20 @@
+sequenceDiagram
+ actor Usuario
+ participant UI as Interfaz
+ participant C as Controlador
+ participant R as Router
+ participant S as Strategy
+ participant G as Grafo
+ Usuario->>UI: origen, destino, preferencia
+ UI->>C: solicitarRuta(...)
+ C->>S: seleccionar política
+ C->>R: route(origen,destino,S,cierres)
+ loop mientras haya nodos por explorar
+  R->>G: vecinos(nodo)
+  G-->>R: tramos y atributos
+  R->>S: costo(tramo)
+  S-->>R: peso no negativo
+ end
+ R-->>C: ruta, costo, métricas
+ C-->>UI: resultado / sin ruta
+ UI-->>Usuario: instrucciones y estimado

@@ -1,0 +1,16 @@
+flowchart TD
+ A([Inicio]) --> B[Validar origen y destino]
+ B --> C{Nodos válidos?}
+ C -- No --> X[Informar error]
+ C -- Sí --> D[Elegir Strategy]
+ D --> E[Inicializar distancias y cola]
+ E --> F{Cola vacía?}
+ F -- Sí --> G[Informar sin ruta]
+ F -- No --> H[Extraer nodo de menor costo]
+ H --> I{Es destino?}
+ I -- Sí --> J[Reconstruir ruta y métricas]
+ I -- No --> K[Relajar tramos abiertos usando Strategy]
+ K --> F
+ J --> L([Fin])
+ X --> L
+ G --> L

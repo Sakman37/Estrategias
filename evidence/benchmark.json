@@ -1,0 +1,65 @@
+[
+  {
+    "found": true,
+    "strategy": "fastest",
+    "source": "Entrada",
+    "target": "Laboratorios",
+    "path": [
+      "Entrada",
+      "Jardin",
+      "Auditorio",
+      "Laboratorios"
+    ],
+    "minutes": 7,
+    "score": 7.0,
+    "visited": 8,
+    "stairs": 1,
+    "max_slope": 0.07,
+    "segments": 3,
+    "runs": 1000,
+    "median_ms": 0.0172,
+    "p95_ms": 0.019
+  },
+  {
+    "found": true,
+    "strategy": "accessible",
+    "source": "Entrada",
+    "target": "Laboratorios",
+    "path": [
+      "Entrada",
+      "Plaza",
+      "Auditorio",
+      "Laboratorios"
+    ],
+    "minutes": 8,
+    "score": 8.6,
+    "visited": 8,
+    "stairs": 0,
+    "max_slope": 0.05,
+    "segments": 3,
+    "runs": 1000,
+    "median_ms": 0.0198,
+    "p95_ms": 0.0227
+  },
+  {
+    "found": true,
+    "strategy": "balanced",
+    "source": "Entrada",
+    "target": "Laboratorios",
+    "path": [
+      "Entrada",
+      "Plaza",
+      "Auditorio",
+      "Laboratorios"
+    ],
+    "minutes": 8,
+    "score": 8.19,
+    "visited": 8,
+    "stairs": 0,
+    "max_slope": 0.05,
+    "segments": 3,
+    "runs": 1000,
+    "median_ms": 0.0207,
+    "p95_ms": 0.0233
+  }
+]
